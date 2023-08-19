@@ -13,7 +13,7 @@ class Stack:
         self.items.append(value)
         return self.items
     
-    def pop_value_stack(self):
+    def pop_value_stack(self) -> list:
         size_of_stack = len(self.items)
         if size_of_stack == 0:
             return "Stack is empty"

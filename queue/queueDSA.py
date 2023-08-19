@@ -2,17 +2,17 @@ class Queue:
     def __init__(self) -> None:
         self.items = []
 
-    def create_queue(self):
+    def create_queue(self) -> list:
         return self.items
     
-    def check_size_queue(self):
+    def check_size_queue(self) -> int:
         return len(self.items)
     
-    def append_queue(self,value):
+    def append_queue(self,value) -> list:
         self.items.append(value)
         return self.items
     
-    def pop_queue(self):
+    def pop_queue(self) -> list:
         size_of_queue = len(self.items)
         if size_of_queue == 0:
            return "No queue found"

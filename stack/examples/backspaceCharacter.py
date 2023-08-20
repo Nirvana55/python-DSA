@@ -1,3 +1,5 @@
+#Leet code level: (easy)
+
 #step1: loop the two string
 #step2: check if they contain # 
 #step3: if they contain # pop else append

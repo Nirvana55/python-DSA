@@ -1,3 +1,5 @@
+#Leet code level: (easy)
+
 #need to check if the stack can validate the string with parenthesis 
 # first need to add string first into stack.
 # and later when stack length is greater we can pop and check the element is opposite to the element or not

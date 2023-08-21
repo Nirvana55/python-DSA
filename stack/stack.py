@@ -25,8 +25,9 @@ class Stack:
 stack1 = Stack()
 print(stack1.create_stack())
 print(stack1.append_value_stack(2))
+print(stack1.append_value_stack(3))
 print(stack1.check_stack_size())
-print(stack1.pop_value_stack(2))
+print(stack1.pop_value_stack())
 print(stack1.check_stack_size())
 
 

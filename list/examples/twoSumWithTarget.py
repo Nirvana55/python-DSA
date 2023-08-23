@@ -2,7 +2,7 @@
 
 #Question is to find the index of the list where matches the total of the target
 
-#Breakdown:
+#Breakdown: Algorithm
 #need to loop through list to find the index 
 #to find the index and the sum of the target we used enumerate loop
 #enumerate loop gives us count and variable

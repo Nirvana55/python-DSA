@@ -16,3 +16,10 @@ It has some pros and cons:
 1. It is slow during arithmetic operations on their elements.
 2. They use more disk space because of preallocation.
    (The actual amount of memory that a list consumes depends on the number and size of the elements in the list).
+
+# things to keep in the mind when modify list:
+
+-> never modify the list when iterating
+-> why ? cause when you do that the loop will just continue and the iterator wont know abt it and keep on do the task that is assigned
+-> which can cause a issue.
+-> link for full description: https://stackoverflow.com/questions/10812272/modifying-a-list-while-iterating-over-it-why-not

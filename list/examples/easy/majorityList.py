@@ -36,6 +36,8 @@ class Solution:
             else:
                 vote -= 1
 
+        # We could have returned candidate here directly but we just followed
+        # Boyer-More Algorithm
         for i in range(len(nums)):
             if (nums[i] == candidate):
                 total_vote_count+=1

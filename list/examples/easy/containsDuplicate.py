@@ -28,7 +28,7 @@ class Solution:
                     return True
         return False
 
-# This might me other solution this will time complexity of o(n)
+# This might be other solution this will time complexity of o(n)
 class Solution2:
     def containsDuplicate(self, nums:list[int]) -> bool:
         seen = set()

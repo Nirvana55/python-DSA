@@ -3,8 +3,9 @@
 #Question: Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 
 #algorithm:
-#we can loop and count 
-#or we can append
+#count the value of s
+# check the value of count and return value with 1
+#end
 from collections import Counter
 
 class Solution:

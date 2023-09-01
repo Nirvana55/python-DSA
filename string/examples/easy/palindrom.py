@@ -8,6 +8,7 @@
 #step4: compare if valid return true 
 #step5: else false
 
+# time complexity 0(n) space complexity 0(n)
 class Solution1:
     def isPalindrome(self, s: str) -> bool:
         s = [i.lower() for i in s if i.isalnum()]
@@ -24,6 +25,7 @@ class Solution1:
 #step8: if loop ends we return true
 #step9: end
 
+# time complexity 0(n) space complexity 0(1)
 class Solution2:
     def isPalindrome(self, s: str) -> bool:
         i, j = 0, len(s) - 1

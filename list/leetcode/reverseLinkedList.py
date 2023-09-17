@@ -4,7 +4,7 @@
 
 #breakdown
 #if head is not none
-#we can iterate to last loop
+#we need to create a variable prev and current
 #head = last node 
 #head.next = last_node.prev
 #linked list = head, next
